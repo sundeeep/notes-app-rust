@@ -1,10 +1,10 @@
-mod controllers;
-mod db;
-mod middlewares;
+// mod controllers;
+// mod db;
+// mod middlewares;
 mod models;
-mod routes;
-mod schemas;
-mod utils;
+// mod routes;
+// mod schemas;
+// mod utils;
 
 use sqlx::{postgres::PgPoolOptions, Pool, Postgres};
 use dotenv::dotenv;
@@ -23,7 +23,7 @@ async fn main() {
             pool
         }
         Err(err) => {
-            println!("🔥 Failed to connect to the database: {:?}", err);
+            println!("/n🔥 Failed to connect to the database: {:?}", err);
             std::process::exit(1);
         }
     };
