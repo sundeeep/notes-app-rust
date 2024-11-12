@@ -28,3 +28,9 @@ Cargo.lock
 /ownership/*.exe
 *.pdb
 /ownership/*.pdb
+
+.env
+.env.local
+.env.global
+.env.dev
+.env.prod
